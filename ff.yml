@@ -6,8 +6,6 @@
     - setup: # aka gather_facts
   become: yes
   become_user: root
-  vars_files:
-    - group_vars/ff-refresh-env.yml
   roles:
     - test
 
