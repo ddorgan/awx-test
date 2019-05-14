@@ -1,2 +1,2 @@
 ---
-- debug: msg="test"
+- debug: msg="{{ release_version }}"
